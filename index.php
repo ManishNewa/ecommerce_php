@@ -230,7 +230,7 @@
     <!-- Hot Section Ends -->
 
     <!-- Products Section Starts  -->
-    <div id="content" class="container">
+    <div id="content" class="container-fluid">
         <div class="row">
             <!-- Product Container Starts -->
             <div class="col-md-3 col-sm-6 single">
@@ -238,8 +238,9 @@
                 <div class="product">
                     <!-- Product Image Starts -->
                     <a href="details.php">
-                        <img src="admin/product_images/1.png" class="img-responsive w-100">
+                        <img src="admin/product_images/1.png" class="img-responsive w-100 border-bottom">
                     </a>
+
                     <!-- Product Image Ends -->
                     
                     <!-- Product Details Starts -->
@@ -271,7 +272,7 @@
                 <div class="product">
                     <!-- Product Image Starts -->
                     <a href="details.php">
-                        <img src="admin/product_images/2.png" class="img-responsive w-100">
+                        <img src="admin/product_images/2.png" class="img-responsive w-100 border-bottom">
                     </a>
                     <!-- Product Image Ends -->
                     
@@ -304,7 +305,7 @@
                 <div class="product">
                     <!-- Product Image Starts -->
                     <a href="details.php">
-                        <img src="admin/product_images/3.jpg" class="img-responsive w-100">
+                        <img src="admin/product_images/3.jpg" class="img-responsive w-100 border-bottom">
                     </a>
                     <!-- Product Image Ends -->
                     
@@ -337,7 +338,7 @@
                 <div class="product">
                     <!-- Product Image Starts -->
                     <a href="details.php">
-                        <img src="admin/product_images/4.jpg" class="img-responsive w-100">
+                        <img src="admin/product_images/4.jpg" class="img-responsive w-100 border-bottom">
                     </a>
                     <!-- Product Image Ends -->
                     
@@ -370,7 +371,7 @@
                 <div class="product">
                     <!-- Product Image Starts -->
                     <a href="details.php">
-                        <img src="admin/product_images/5.jpg" class="img-responsive w-100">
+                        <img src="admin/product_images/5.jpg" class="img-responsive w-100 border-bottom">
                     </a>
                     <!-- Product Image Ends -->
                     
@@ -403,7 +404,7 @@
                 <div class="product">
                     <!-- Product Image Starts -->
                     <a href="details.php">
-                        <img src="admin/product_images/6.jpg" class="img-responsive w-100">
+                        <img src="admin/product_images/6.jpg" class="img-responsive w-100 border-bottom">
                     </a>
                     <!-- Product Image Ends -->
                     
@@ -436,7 +437,7 @@
                 <div class="product">
                     <!-- Product Image Starts -->
                     <a href="details.php">
-                        <img src="admin/product_images/7.jpg" class="img-responsive w-100">
+                        <img src="admin/product_images/7.jpg" class="img-responsive w-100 border-bottom">
                     </a>
                     <!-- Product Image Ends -->
                     
@@ -469,7 +470,7 @@
                 <div class="product">
                     <!-- Product Image Starts -->
                     <a href="details.php">
-                        <img src="admin/product_images/8.jpg" class="img-responsive w-100">
+                        <img src="admin/product_images/8.jpg" class="img-responsive w-100 border-bottom">
                     </a>
                     <!-- Product Image Ends -->
                     
@@ -498,6 +499,10 @@
         </div>
     </div>
     <!-- Products Section Ends -->
+
+    <?php 
+        include("includes/footer.php")
+    ?>
 
 
     <!-- Optional JavaScript -->

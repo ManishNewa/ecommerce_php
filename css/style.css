@@ -167,7 +167,7 @@ body{
 /*Contents Style Starts*/
 
 #content{
-	/*padding-left: 25px;*/
+	padding: 0 100px;
 	background: #e7e7e7;
 }
 
@@ -183,10 +183,14 @@ body{
 }
 
 #content .product{
-	/*background: #fff;*/
+	background: #fff;
 	border: 1px solid #e6e6e6;
 	box-sizing: border-box;
 	margin-bottom: 30px;
+}
+
+#content .product .text{
+	background: #d7d7d7;
 }
 
 #content .product .text p.price{
