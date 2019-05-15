@@ -72,10 +72,76 @@ body{
 	color: #eeeeee;
 
 }
-
+/*
 #top ul .menu > li + li:before{
 
 	content: "|\00a0";
 	padding: 0 5px;
 	color: #f7f7f7;
+}*/
+
+/*Navigation Part Ends*/
+
+/*Slider Part Starts*/
+#slider{
+	margin-bottom: 40px!important;
 }
+
+.carousel {/*
+  width:70em;
+  height:35em;
+  margin: 0 auto;*/
+}
+/*Slider Part Ends*/
+
+/*Advantages Starts*/
+
+#advantages{
+	text-align: center;	
+}
+
+#advantages .box{
+	height: 150px;
+}
+
+#advantages .box .icon{
+	position: absolute;
+	font-size: 120px;
+	top: -10px;
+	left: -10px;
+	color: #eeeeee;
+	transition: all 0.2s ease-out;
+	z-index: 1;
+	box-sizing: border-box;
+}
+
+#advantages .box h3{
+	font-size: 20px;
+	position: relative;
+	margin: 0 0 20px;
+	font-weight: 300;
+	text-transform: uppercase;
+	z-index: 2;
+}
+
+#advantages .box h3 a:hover{
+	text-decoration: none;
+}
+
+#advantages .box p{
+	position: relative;
+	color: #555555;
+	z-index: 2;	
+}
+
+.box{
+	background: #fff;
+	margin: 0 0 30px;
+	border: 1px solid #e6e6e6;
+	box-sizing: border-box;
+	padding: 20px;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+/*Advantages Ends*/

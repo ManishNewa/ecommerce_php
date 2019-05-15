@@ -102,14 +102,14 @@
                     <a class="nav-link text-uppercase font-weight-bold" href="#">Contact Us</a>
                   </li>  
                 </ul>
-            </div>
-
-            <div class="collapse navbar-collapse">
-                <a class="btn btn-info navbar-btn pull" href="cart.php">
+                <a class="btn btn-info navbar-btn" href="cart.php">
                     <i class="fa fa-shopping-cart"></i>
                     <span>4 items in cart</span>
                 </a>
-                <button class="btn navbar-btn btn-info  ml-3" type="button" data-toggle="collapse" data-target="#search">
+            </div>
+
+            <div class="collapse navbar-collapse">
+                <button class="btn navbar-btn btn-info ml-3 border-top-1" type="button" data-toggle="collapse" data-target="#search">
                     <span class="sr-only">
                         Toggle Search
                     </span>
@@ -122,7 +122,7 @@
         </div>
     </nav>
     <div class="row border border-2 bg-light">
-        <div class="col-md-3 ml-auto mr-5 col-sm-5">            
+        <div class="col-md-3 ml-auto mr-5 my-1">            
             <div class="collapse clearfix" id="search">
                 <form class="navbar-form" method="GET" action="results.php">
                     <div class="input-group">
@@ -143,6 +143,78 @@
     </div>
     <!-- Navigation Ends  -->
 
+    <!-- Slider Part Starts -->
+    <div class="container" id="slider">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carouse">
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="/admin/slide_images/4.jpg" class=" d-inline-block h-25 w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/admin/slide_images/5.jpg" class=" d-inline-block h-25 w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="/admin/slide_images/6.jpg" class=" d-inline-block h-25 w-100" alt="...">
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Slider Part Ends -->
+
+    <!-- <div id="advantages">
+        <div class="container">
+            <div class="same-height row ">
+                <div class="col-md-4">
+                    <div class="box same-height">
+                        <div class="icon mx-auto w-100">
+                            <i class="fa fa-heart"></i>
+                        </div>
+                        <h3><a class="text-dark" href="#">We Love Our Customers</a></h3>
+                        <p>We are known to provide best possible service ever.</p>
+                    </div>
+                </div>   
+                <div class="col-md-4">
+                    <div class="box same-height">
+                        <div class="icon mx-auto w-100">
+                            <i class="fa fa-tags"></i>
+                        </div>
+                        <h3><a class="text-dark" href="#">Best Prices</a></h3>
+                        <p>You can check on all others sites about the prices and compare with us.</p>
+                    </div>
+                </div>  
+                    
+                <div class="col-md-4">
+                    <div class="box same-height">
+                        <div class="icon mx-auto w-100">
+                            <i class="fa fa-thumbs-up"></i>
+                        </div>
+                        <h3><a class="text-dark" href="#">100% Satisfaction guaranteed</a></h3>
+                        <p>Free returns on eveything for 3 months/</p>
+                    </div>
+                </div>    
+            </div>
+        </div>        
+    </div> -->
+
+    <!-- Advantages Ends -->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
    <!--  <script src="../assets/js/bootstrap.min.js"></script>
@@ -154,7 +226,8 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-    <!-- <script src="js/bootstrap.min.js"></script> -->
+
+    <script src="admin/js/carousel.js"></script>
 
   </body>
 </html>
