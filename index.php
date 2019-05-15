@@ -68,7 +68,7 @@
     </div>
     <!-- Top Ends -->
 
-    <!-- Navigatio starts -->
+    <!-- Navigation starts -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand pr-3" href="#">
@@ -155,13 +155,13 @@
                   </ol>
                   <div class="carousel-inner">
                     <div class="carousel-item active">
-                      <img src="/admin/slide_images/4.jpg" class=" d-inline-block h-25 w-100" alt="...">
+                      <img src="/admin/slide_images/4.jpg" class="img-responsive d-inline-block h-50 w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="/admin/slide_images/5.jpg" class=" d-inline-block h-25 w-100" alt="...">
+                      <img src="/admin/slide_images/5.jpg" class="img-responsive d-inline-block h-50 w-100" alt="...">
                     </div>
                     <div class="carousel-item">
-                      <img src="/admin/slide_images/6.jpg" class=" d-inline-block h-25 w-100" alt="...">
+                      <img src="/admin/slide_images/6.jpg" class="img-responsive d-inline-block h-50 w-100" alt="...">
                     </div>
                   </div>
                   <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
@@ -178,7 +178,8 @@
     </div>
     <!-- Slider Part Ends -->
 
-    <!-- <div id="advantages">
+    <!-- Advantages Section Starts -->
+    <div id="advantages">
         <div class="container">
             <div class="same-height row ">
                 <div class="col-md-4">
@@ -211,7 +212,8 @@
                 </div>    
             </div>
         </div>        
-    </div> -->
+    </div>
+    <!-- Advantages Section Ends -->    
 
     <!-- Advantages Ends -->
 

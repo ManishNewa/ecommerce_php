@@ -1,4 +1,4 @@
-/*General Style*/
+General Style*/
 body{
 	font-family: "Roboto", Helvetica, Arial, sans-serif;
 	font-size: 14px;
@@ -7,6 +7,12 @@ body{
 	background-color: #f0f0f0;
 	overflow-x: hidden;  
 }
+
+.container{
+	width:75%;
+}
+
+/*General Styles Ends*/
 
 /*Top Navbar Styles*/
 
@@ -83,8 +89,11 @@ body{
 /*Navigation Part Ends*/
 
 /*Slider Part Starts*/
+
 #slider{
-	margin-bottom: 40px!important;
+	width: 75%;
+	margin: 0 auto;
+	margin-bottom: 20px!important;
 }
 
 .carousel {/*
@@ -92,6 +101,14 @@ body{
   height:35em;
   margin: 0 auto;*/
 }
+.carousel-inner .carousel-item{
+
+}
+.carousel-inner .carousel-item img{
+
+	/*height: 600px!important;*/
+}
+
 /*Slider Part Ends*/
 
 /*Advantages Starts*/
@@ -108,7 +125,7 @@ body{
 	position: absolute;
 	font-size: 120px;
 	top: -10px;
-	left: -10px;
+	left: 0;
 	color: #eeeeee;
 	transition: all 0.2s ease-out;
 	z-index: 1;
@@ -144,4 +161,4 @@ body{
 }
 
 
-/*Advantages Ends*/
+/*Advantages Ends
