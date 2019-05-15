@@ -215,7 +215,101 @@
     </div>
     <!-- Advantages Section Ends -->    
 
-    <!-- Advantages Ends -->
+    <!-- Hot Section Starts -->
+    <div id="hot">
+        <div class="box">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h2 class="text-uppercase font-weight-100 text-center" style="color: #4993e4">Latest this week</h2>
+                    </div>         
+                </div>
+            </div>
+        </div>
+    </div>  
+    <!-- Hot Section Ends -->
+
+
+    <div id="content" class="container">
+        <div class="row">
+            <div class="col-md-3 col-sm-6 single">
+                <!-- Product Section Starts -->
+                <div class="product">
+                    <a href="details.php">
+                        <img src="admin/product_images/1.png" class="img-responsive w-75 h-75 mx-auto">
+                    </a>
+                    <div class="text">
+                        <h3><a href="details.php">Portable Blender – Blendjet One</a></h3>
+                        <p class="price">$20</p>
+                        <p class="buttons">
+                            <a href="details.php" class="btn btn-info">View Details</a>                        
+                            <a href="cart.php" class="btn btn-dark">
+                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <!-- Product Section Ends -->
+            </div>
+            <div class="col-md-3 col-sm-6 single">
+                <!-- Product Section Starts -->
+                <div class="product">
+                    <a href="details.php">
+                        <img src="admin/product_images/1.png" class="img-responsive w-75 h-75 mx-auto">
+                    </a>
+                    <div class="text">
+                        <h3><a href="details.php">Portable Blender – Blendjet One</a></h3>
+                        <p class="price">$20</p>
+                        <p class="buttons">
+                            <a href="details.php" class="btn btn-info">View Details</a>                        
+                            <a href="cart.php" class="btn btn-dark">
+                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <!-- Product Section Ends -->
+            </div>
+            <div class="col-md-3 col-sm-6 single">
+                <!-- Product Section Starts -->
+                <div class="product">
+                    <a href="details.php">
+                        <img src="admin/product_images/1.png" class="img-responsive w-75 h-75 mx-auto">
+                    </a>
+                    <div class="text">
+                        <h3><a href="details.php">Portable Blender – Blendjet One</a></h3>
+                        <p class="price">$20</p>
+                        <p class="buttons">
+                            <a href="details.php" class="btn btn-info">View Details</a>                        
+                            <a href="cart.php" class="btn btn-dark">
+                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <!-- Product Section Ends -->
+            </div>
+            <div class="col-md-3 col-sm-6 single">
+                <!-- Product Section Starts -->
+                <div class="product">
+                    <a href="details.php">
+                        <img src="admin/product_images/1.png" class="img-responsive w-75 h-75 mx-auto">
+                    </a>
+                    <div class="text">
+                        <h3><a href="details.php">Portable Blender – Blendjet One</a></h3>
+                        <p class="price">$20</p>
+                        <p class="buttons">
+                            <a href="details.php" class="btn btn-info">View Details</a>                        
+                            <a href="cart.php" class="btn btn-dark">
+                                <i class="fa fa-shopping-cart"></i> Add to Cart
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <!-- Product Section Ends -->
+            </div>
+        </div>
+    </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
