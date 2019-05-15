@@ -1,0 +1,118 @@
+General Style*/
+body{
+	font-family: "Roboto", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #333333;
+	background-color: #f0f0f0;
+	overflow-x: hidden;  
+}
+
+/*Top Navigation Styles*/
+
+#top{
+	background: #555555;
+	padding: 10px 0;
+
+
+}
+
+#top .offer .btn{
+	text-transform: uppercase;
+}
+
+@media (max-width: 991px){
+
+	#top .offer{
+		margin-bottom: 10px;
+	}
+
+}
+
+@media (max-width: 991px ){
+	
+	#top{
+		font-size: 12px;
+		text-align: center;
+	}
+}
+
+#top a{
+	color: #fff;
+}
+
+#top ul.menu{
+	padding-top: 5px;
+	margin: 0;
+	font-size: 12px;
+	text-align: right;
+	list-style: none;
+}
+
+
+
+@media (max-width: 991px){
+
+	#top ul.menu{
+		text-align: center;
+	}
+}
+
+#top ul.menu > li{
+
+	display: inline-block;
+
+}
+
+#top ul.menu > li a{
+
+	color: #eeeeee;
+
+}
+
+#top .menu ul li{
+
+	border-left: 2px solid white;
+	padding: 0 5px;
+}
+
+/*Header Contents Starts*/
+.navbar-collapse .right{
+	float: right;
+}
+
+.navbar-brand:focus,
+.navbar-brand:hover{
+	text-decoration: none;
+}
+
+#navigation ul a:hover{
+	background:  red!important;
+	opacity: 0.5!important;
+}
+
+.navbar-btn:hover{
+	background: blue!important;
+}
+
+#search .navbar-form{
+	float: right;
+}
+
+#search{
+	clear: both;
+	border-top: solid 1px #9adacd;
+	text-align: right;
+}
+
+#search .navbar-form .input-group{
+	display: table;
+}
+
+#search .navbar-form .input-group .form-control{
+	width: 100%;
+}
+/*Header Contents Ends*/
+
+
+/*Top Navigation Ends */
