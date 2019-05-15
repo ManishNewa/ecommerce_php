@@ -229,87 +229,276 @@
     </div>  
     <!-- Hot Section Ends -->
 
-
+    <!-- Products Section Starts  -->
     <div id="content" class="container">
         <div class="row">
+            <!-- Product Container Starts -->
             <div class="col-md-3 col-sm-6 single">
-                <!-- Product Section Starts -->
+                <!-- Product contents Starts -->
                 <div class="product">
+                    <!-- Product Image Starts -->
                     <a href="details.php">
-                        <img src="admin/product_images/1.png" class="img-responsive w-75 h-75 mx-auto">
+                        <img src="admin/product_images/1.png" class="img-responsive w-100">
                     </a>
+                    <!-- Product Image Ends -->
+                    
+                    <!-- Product Details Starts -->
                     <div class="text">
                         <h3><a href="details.php">Portable Blender – Blendjet One</a></h3>
                         <p class="price">$20</p>
                         <p class="buttons">
-                            <a href="details.php" class="btn btn-info">View Details</a>                        
-                            <a href="cart.php" class="btn btn-dark">
-                                <i class="fa fa-shopping-cart"></i> Add to Cart
-                            </a>
+                            <div class="row">
+                                <div class="col-3 mr-4">                                    
+                                    <a href="details.php" class="btn btn-info">View Details</a>  
+                                </div>
+                                <div class="col-3 ml-4 mr-2">                                                         
+                                    <a href="cart.php" class="btn btn-dark">
+                                        <i class="fa fa-shopping-cart"></i>Add to Cart
+                                    </a>
+                                </div>
+                            </div> 
                         </p>
                     </div>
+                    <!-- Product Details Ends -->
                 </div>
-                <!-- Product Section Ends -->
+                <!-- Product content Ends -->
             </div>
+            <!-- Produt Container Ends -->
+
+            <!-- Product Container Starts -->
             <div class="col-md-3 col-sm-6 single">
-                <!-- Product Section Starts -->
+                <!-- Product contents Starts -->
                 <div class="product">
+                    <!-- Product Image Starts -->
                     <a href="details.php">
-                        <img src="admin/product_images/1.png" class="img-responsive w-75 h-75 mx-auto">
+                        <img src="admin/product_images/2.png" class="img-responsive w-100">
                     </a>
+                    <!-- Product Image Ends -->
+                    
+                    <!-- Product Details Starts -->
                     <div class="text">
-                        <h3><a href="details.php">Portable Blender – Blendjet One</a></h3>
-                        <p class="price">$20</p>
+                        <h3><a href="details.php">Spider Nail Gel</a></h3>
+                        <p class="price">$8</p>
                         <p class="buttons">
-                            <a href="details.php" class="btn btn-info">View Details</a>                        
-                            <a href="cart.php" class="btn btn-dark">
-                                <i class="fa fa-shopping-cart"></i> Add to Cart
-                            </a>
+                            <div class="row">
+                                <div class="col-3 mr-4">                                    
+                                    <a href="details.php" class="btn btn-info">View Details</a>  
+                                </div>
+                                <div class="col-3 ml-4 mr-2">                                                         
+                                    <a href="cart.php" class="btn btn-dark">
+                                        <i class="fa fa-shopping-cart"></i>Add to Cart
+                                    </a>
+                                </div>
+                            </div> 
                         </p>
                     </div>
+                    <!-- Product Details Ends -->
                 </div>
-                <!-- Product Section Ends -->
+                <!-- Product content Ends -->
             </div>
+            <!-- Produt Container Ends -->
+
+            <!-- Product Container Starts -->
             <div class="col-md-3 col-sm-6 single">
-                <!-- Product Section Starts -->
+                <!-- Product contents Starts -->
                 <div class="product">
+                    <!-- Product Image Starts -->
                     <a href="details.php">
-                        <img src="admin/product_images/1.png" class="img-responsive w-75 h-75 mx-auto">
+                        <img src="admin/product_images/3.jpg" class="img-responsive w-100">
                     </a>
+                    <!-- Product Image Ends -->
+                    
+                    <!-- Product Details Starts -->
                     <div class="text">
-                        <h3><a href="details.php">Portable Blender – Blendjet One</a></h3>
-                        <p class="price">$20</p>
+                        <h3><a href="details.php">Wireless Phone Chargers</a></h3>
+                        <p class="price">$15</p>
                         <p class="buttons">
-                            <a href="details.php" class="btn btn-info">View Details</a>                        
-                            <a href="cart.php" class="btn btn-dark">
-                                <i class="fa fa-shopping-cart"></i> Add to Cart
-                            </a>
+                            <div class="row">
+                                <div class="col-3 mr-4">                                    
+                                    <a href="details.php" class="btn btn-info">View Details</a>  
+                                </div>
+                                <div class="col-3 ml-4 mr-2">                                                         
+                                    <a href="cart.php" class="btn btn-dark">
+                                        <i class="fa fa-shopping-cart"></i>Add to Cart
+                                    </a>
+                                </div>
+                            </div> 
                         </p>
                     </div>
+                    <!-- Product Details Ends -->
                 </div>
-                <!-- Product Section Ends -->
+                <!-- Product content Ends -->
             </div>
+            <!-- Produt Container Ends -->
+
+            <!-- Product Container Starts -->
             <div class="col-md-3 col-sm-6 single">
-                <!-- Product Section Starts -->
+                <!-- Product contents Starts -->
                 <div class="product">
+                    <!-- Product Image Starts -->
                     <a href="details.php">
-                        <img src="admin/product_images/1.png" class="img-responsive w-75 h-75 mx-auto">
+                        <img src="admin/product_images/4.jpg" class="img-responsive w-100">
                     </a>
+                    <!-- Product Image Ends -->
+                    
+                    <!-- Product Details Starts -->
                     <div class="text">
-                        <h3><a href="details.php">Portable Blender – Blendjet One</a></h3>
-                        <p class="price">$20</p>
+                        <h3><a href="details.php">Phone Lenses</a></h3>
+                        <p class="price">$5</p>
                         <p class="buttons">
-                            <a href="details.php" class="btn btn-info">View Details</a>                        
-                            <a href="cart.php" class="btn btn-dark">
-                                <i class="fa fa-shopping-cart"></i> Add to Cart
-                            </a>
+                            <div class="row">
+                                <div class="col-3 mr-4">                                    
+                                    <a href="details.php" class="btn btn-info">View Details</a>  
+                                </div>
+                                <div class="col-3 ml-4 mr-2">                                                         
+                                    <a href="cart.php" class="btn btn-dark">
+                                        <i class="fa fa-shopping-cart"></i>Add to Cart
+                                    </a>
+                                </div>
+                            </div> 
                         </p>
                     </div>
+                    <!-- Product Details Ends -->
                 </div>
-                <!-- Product Section Ends -->
+                <!-- Product content Ends -->
             </div>
+            <!-- Produt Container Ends -->
+
+            <!-- Product Container Starts -->
+            <div class="col-md-3 col-sm-6 single">
+                <!-- Product contents Starts -->
+                <div class="product">
+                    <!-- Product Image Starts -->
+                    <a href="details.php">
+                        <img src="admin/product_images/5.jpg" class="img-responsive w-100">
+                    </a>
+                    <!-- Product Image Ends -->
+                    
+                    <!-- Product Details Starts -->
+                    <div class="text">
+                        <h3><a href="details.php">Inflatable Pet Collars</a></h3>
+                        <p class="price">$8</p>
+                        <p class="buttons">
+                            <div class="row">
+                                <div class="col-3 mr-4">                                    
+                                    <a href="details.php" class="btn btn-info">View Details</a>  
+                                </div>
+                                <div class="col-3 ml-4 mr-2">                                                         
+                                    <a href="cart.php" class="btn btn-dark">
+                                        <i class="fa fa-shopping-cart"></i>Add to Cart
+                                    </a>
+                                </div>
+                            </div> 
+                        </p>
+                    </div>
+                    <!-- Product Details Ends -->
+                </div>
+                <!-- Product content Ends -->
+            </div>
+            <!-- Product Container Ends -->
+
+            <!-- Product Container Starts -->
+            <div class="col-md-3 col-sm-6 single">
+                <!-- Product contents Starts -->
+                <div class="product">
+                    <!-- Product Image Starts -->
+                    <a href="details.php">
+                        <img src="admin/product_images/6.jpg" class="img-responsive w-100">
+                    </a>
+                    <!-- Product Image Ends -->
+                    
+                    <!-- Product Details Starts -->
+                    <div class="text">
+                        <h3><a href="details.php">Eyeshadow Stamp</a></h3>
+                        <p class="price">$4</p>
+                        <p class="buttons">
+                            <div class="row">
+                                <div class="col-3 mr-4">                                    
+                                    <a href="details.php" class="btn btn-info">View Details</a>  
+                                </div>
+                                <div class="col-3 ml-4 mr-2">                                                         
+                                    <a href="cart.php" class="btn btn-dark">
+                                        <i class="fa fa-shopping-cart"></i>Add to Cart
+                                    </a>
+                                </div>
+                            </div> 
+                        </p>
+                    </div>
+                    <!-- Product Details Ends -->
+                </div>
+                <!-- Product content Ends -->
+            </div>
+            <!-- Product Container Ends -->
+
+            <!-- Product Container Starts -->
+            <div class="col-md-3 col-sm-6 single">
+                <!-- Product contents Starts -->
+                <div class="product">
+                    <!-- Product Image Starts -->
+                    <a href="details.php">
+                        <img src="admin/product_images/7.jpg" class="img-responsive w-100">
+                    </a>
+                    <!-- Product Image Ends -->
+                    
+                    <!-- Product Details Starts -->
+                    <div class="text">
+                        <h3><a href="details.php">Strapless Backless Bra</a></h3>
+                        <p class="price">$4</p>
+                        <p class="buttons">
+                            <div class="row">
+                                <div class="col-3 mr-4">                                    
+                                    <a href="details.php" class="btn btn-info">View Details</a>  
+                                </div>
+                                <div class="col-3 ml-4 mr-2">                                                         
+                                    <a href="cart.php" class="btn btn-dark">
+                                        <i class="fa fa-shopping-cart"></i>Add to Cart
+                                    </a>
+                                </div>
+                            </div> 
+                        </p>
+                    </div>
+                    <!-- Product Details Ends -->
+                </div>
+                <!-- Product content Ends -->
+            </div>
+            <!-- Product Container Ends -->
+
+            <!-- Product Container Starts -->
+            <div class="col-md-3 col-sm-6 single">
+                <!-- Product contents Starts -->
+                <div class="product">
+                    <!-- Product Image Starts -->
+                    <a href="details.php">
+                        <img src="admin/product_images/8.jpg" class="img-responsive w-100">
+                    </a>
+                    <!-- Product Image Ends -->
+                    
+                    <!-- Product Details Starts -->
+                    <div class="text">
+                        <h3><a href="details.php">Child Wrist Leash</a></h3>
+                        <p class="price">$6</p>
+                        <p class="buttons">
+                            <div class="row">
+                                <div class="col-3 mr-4">                                    
+                                    <a href="details.php" class="btn btn-info">View Details</a>  
+                                </div>
+                                <div class="col-3 ml-4 mr-2">                                                         
+                                    <a href="cart.php" class="btn btn-dark">
+                                        <i class="fa fa-shopping-cart"></i>Add to Cart
+                                    </a>
+                                </div>
+                            </div> 
+                        </p>
+                    </div>
+                    <!-- Product Details Ends -->
+                </div>
+                <!-- Product content Ends -->
+            </div>
+            <!-- Product Container Ends -->
         </div>
     </div>
+    <!-- Products Section Ends -->
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
