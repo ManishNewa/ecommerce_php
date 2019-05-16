@@ -78,14 +78,20 @@ body{
 	color: #eeeeee;
 
 }
-/*
-#top ul .menu > li + li:before{
 
-	content: "|\00a0";
-	padding: 0 5px;
-	color: #f7f7f7;
-}*/
+#navigation ul li{
+	margin-right: 5px;
+}
 
+#navigation ul li.active{
+	background: #e9e9e9;
+	/*border: 1px solid #d7d7d7;*/
+}
+
+#navigation ul li:hover{
+	background: #e9e9e9;
+	/*border: 1px solid #d7d7d7;*/
+}
 /*Navigation Part Ends*/
 
 /*Slider Part Starts*/
@@ -94,19 +100,6 @@ body{
 	width: 75%;
 	margin: 0 auto;
 	margin-bottom: 20px!important;
-}
-
-.carousel {/*
-  width:70em;
-  height:35em;
-  margin: 0 auto;*/
-}
-.carousel-inner .carousel-item{
-
-}
-.carousel-inner .carousel-item img{
-
-	/*height: 600px!important;*/
 }
 
 /*Slider Part Ends*/
@@ -159,25 +152,36 @@ body{
 	padding: 20px;
 	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
 }
-
-
 /*Advantages Ends
 
 
 /*Contents Style Starts*/
 
 #content{
-	padding: 0 100px;
+	padding: 50px 100px;
 	background: #e7e7e7;
 }
 
 .single{
 	width: 290px;
+	height: 400px;
+}
+
+#product-container{
+	/*height: 370px;*/
+}
+
+.text>h3{
+	height: 20px;
+	overflow-y: hidden;
+}
+
+.text>p{
+	height: 10px;
 }
 
 @media(max-width: 768px){
 	.single{
-		width: 60%;
 		margin:0 auto;
 	}
 }
@@ -224,5 +228,70 @@ body{
 	text-decoration: none;
 }
 
+#product-container{
+	border: 1px solid black;
+	box-sizing: border-box;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
 
 /*Contents Style Ends*/
+
+
+/*Footer Starts*/
+
+#footer{
+	background: #e0e0e0;
+	padding: 20px 0;
+}
+
+#footer ul{
+	list-style: none;
+	padding-left: 0;
+}
+
+#footer ul a{
+	color: #999999;
+	padding: 20px 0;
+}
+
+#footer ul a:hover{
+	text-decoration:none;
+}
+
+#footer .social{
+	text-align: left;
+}
+
+#footer .social a{
+	margin: 0 10px 0 0;
+	color: #fff;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	line-height: 15px;
+	text-align: center;
+	transition: all 0.2s ease-out;
+	vertical-align: bottom;
+	background-color: #555555;
+}
+#footer .social a i{
+	margin-top: 5px;
+}
+
+/*Footer Ends*/
+
+/*Copyright Section*/
+
+#copyright{
+	background: #333;
+	color: #ccc;
+	padding: 20px 0;
+	font-size: 16px;
+}
+
+#copyright p{
+	margin: 0;
+}
+
+/*Copyright Section*/

@@ -1,0 +1,68 @@
+/*Content Section Starts*/
+	
+	.breadcrumb{
+		padding: 8px 15px;
+		margin-bottom: 20px;
+		background-color: #ffffff;
+		border-radius: 0;
+		box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+	}
+
+	.breadcrumb > li + li:before{
+		/*color: #cccccc;*/
+	}
+
+	@media(max-width: 991px){
+
+		.breadcrumb{
+			padding: 8px 0;
+			text-align: center;
+		}
+
+	}
+
+	.breadcrumb > li > a{
+		text-decoration: none;
+		color: red;
+	}
+
+/*Content Section Ends*/
+
+/*Sidebar Section Starts*/
+
+.card{
+	background-color: #ffffff;
+	border-radius: 0;
+	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+}
+
+.card > .card-header{
+	padding-bottom: 5px;
+}
+
+.card > .card-header > h5{
+	padding: 5px 0;
+	margin: 0;
+}
+
+.card > .card-body{
+	padding:0px 15px 10px 10px;
+}
+
+.card >div > ul > li:hover{
+	background: #e9e9e9;
+}
+
+.card >div > ul > li > a{
+	color: black;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.card >div > ul > li > a:hover{
+	text-decoration: none;
+}
+
+/*Sidebar Section Ends*/
