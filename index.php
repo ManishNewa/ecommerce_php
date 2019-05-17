@@ -141,8 +141,8 @@
 
     <!-- Slider Part Starts -->
     <div class="container" id="slider">
-        <div class="row">
-            <div class="col-md-12">
+        <div class="row justify-content-center">
+            <div class="col-md-9">
                 <div id="myCarousel" class="carousel slide carousel-fade" data-ride="carouse">
                   <ol class="carousel-indicators">
                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>

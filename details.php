@@ -167,7 +167,7 @@
 
                 <!-- Product Details Section Starts -->
                 <div class="col-md-9">
-                    <div class="row pb-2" id="productMain">
+                    <div class="row" id="productMain">
                         <div class="col-md-6 bg-light">
                             <!-- Product Image Starts-->
                             <div id="mainImage">
@@ -206,7 +206,7 @@
                         </div>
 
                         <div class="col-md-6">
-                            <div class="row">
+                            <div class="row pr-3 ml-1">
                                 <!-- Box Section Starts -->
                                 <div class="box col-12">
                                     <h2 class="text-center mb-3">Wireless Phone Charger</h2>
@@ -273,7 +273,15 @@
                                 </div>    
                             </div>
                         </div>
+                        <div class="box mt-3 pr-3" id="details">
+                            <h4>Product Details</h4>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                            quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                            consequat.</p>
+                        </div>
                     </div>
+
                 </div>
                 <!-- Product Details Section Ends -->
 
