@@ -156,12 +156,12 @@
                 </div>
 
                 <!-- Sidebar Section Starts -->
-                <div class="col-md-3"> 
+                <div class="col-lg-3 col-md-5"> 
                     <?php include "includes/sidebar.php"; ?>
                 </div>
                 <!-- Sidebar Section Ends -->
 
-                <div class="col-md-9">
+                <div class="col-lg-9 col-md-7">
                     <!-- Shop Heading and Title -->
                     <div class="box">
                         <h1>Shop</h1>
@@ -368,19 +368,27 @@
 
                     </div>
                     <!-- Products Row Section Ends -->
-                    <center>
-                        <!-- Pagination for Product Section -->
-                        <ul class="pagination">
-                            <li><a href="shop.php">First</a></li>
-                            <li><a href="shop.php">1</a></li>
-                            <li><a href="shop.php">2</a></li>
-                            <li><a href="shop.php">3</a></li>
-                            <li><a href="shop.php">4</a></li>
-                            <li><a href="shop.php">5</a></li>
-                            <li><a href="shop.php">Last</a></li>
-                        </ul>
-                        <!-- Pagination for Product Section Ends -->
-                    </center>
+
+                    <!-- Pagination for Product Section -->
+                   
+                    <ul class="pagination justify-content-center">
+                        <li class="page-item disabled">
+                          <a class="page-link" href="javascript:;" tabindex="-1" aria-disabled="true">Previous</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="javascript:;">1</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="javascript:;">2</a>
+                        </li>
+                        <li class="page-item">
+                            <a class="page-link" href="javascript:;">3</a>
+                        </li>
+                        <li class="page-item">
+                          <a class="page-link" href="javascript:;">Next</a>
+                        </li>
+                    </ul>
+                    
                </div>
 
             </div>
