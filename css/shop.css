@@ -67,3 +67,27 @@
 }
 
 /*Sidebar Section Ends*/
+
+
+/*Products Content Section Starts*/
+
+	@media(max-width: 768px){
+		.center-responsive{
+			width: 70%;
+			margin: 0 auto;
+		}
+	}
+
+	@media(max-width: 550px){
+		.center-responsive{
+			width: 95%;
+			margin:0 auto;
+		}
+	}
+
+	#p-container{
+		box-sizing: border-box!important;
+		box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1)!important;
+	}
+
+/*Products Content Section Ends*/

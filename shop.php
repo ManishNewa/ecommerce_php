@@ -7,10 +7,13 @@
 
     <title>Ecommerce Website</title>
 
+    <!-- Google Fonts -->
     <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Roboto:400,500,700,300,100">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    
+    <!-- <link rel="stylesheet" type="text/css" href="/bootstrap/dist/css/bootstrap.min.css"> -->
+
     <!-- Font Awesome Icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
@@ -159,6 +162,7 @@
                 <!-- Sidebar Section Ends -->
 
                 <div class="col-md-9">
+                    <!-- Shop Heading and Title -->
                     <div class="box">
                         <h1>Shop</h1>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -166,7 +170,219 @@
                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
                         consequat.</p>
                     </div>
-                </div>
+
+                    <!-- Products Row Section Starts-->
+                    <div class="row">
+
+                        <!-- Product Container Starts-->
+                        <div class="col-md-4 col-sm-9 center-responsive mb-3" id="p-container">
+                            <!-- Product contents Starts -->
+                            <div class="product">
+                                <!-- Product Image Starts -->
+                                <a href="details.php">
+                                    <img src="admin/product_images/3.jpg" class="img-responsive w-100 border-bottom">
+                                </a>
+                                <!-- Product Image Ends -->
+                                
+                                <!-- Product Details Starts -->
+                                <div class="text">
+                                    <h3><a href="details.php">Wireless Phone Chargers</a></h3>
+                                    <p class="price">$15</p>
+                                    <p class="buttons">
+                                        <div class="row justify-content-center"> 
+
+                                            <a href="details.php" class="btn btn-info btn-sm mr-1">View Details</a>    
+
+                                            <a href="cart.php" class="btn btn-dark btn-sm">
+                                                <i class="fa fa-shopping-cart"></i>Add to Cart
+                                            </a>     
+
+                                        </div> 
+                                    </p>
+                                </div>
+                                <!-- Product Details Ends -->
+                            </div>
+                            <!-- Product content Ends -->
+                        </div>
+                        <!-- Product Container Ends -->
+                        
+                        <!-- Product Container Starts-->
+                        <div class="col-md-4 col-sm-9 center-responsive mb-3" id="p-container">
+                            <!-- Product contents Starts -->
+                            <div class="product">
+                                <!-- Product Image Starts -->
+                                <a href="details.php">
+                                    <img src="admin/product_images/13.png" class="img-responsive w-100 border-bottom">
+                                </a>
+                                <!-- Product Image Ends -->
+                                
+                                <!-- Product Details Starts -->
+                                <div class="text">
+                                    <h3><a href="details.php">Face Shield</a></h3>
+                                    <p class="price">$5</p>
+                                    <p class="buttons">
+                                        <div class="row justify-content-center"> 
+
+                                            <a href="details.php" class="btn btn-info btn-sm mr-1">View Details</a>    
+
+                                            <a href="cart.php" class="btn btn-dark btn-sm">
+                                                <i class="fa fa-shopping-cart"></i>Add to Cart
+                                            </a>     
+
+                                        </div> 
+                                    </p>
+                                </div>
+                                <!-- Product Details Ends -->
+                            </div>
+                            <!-- Product content Ends -->
+                        </div>
+                        <!-- Product Container Ends -->
+                        
+                        <!-- Product Container Starts-->
+                        <div class="col-md-4 col-sm-9 center-responsive mb-3" id="p-container">
+                            <!-- Product contents Starts -->
+                            <div class="product">
+                                <!-- Product Image Starts -->
+                                <a href="details.php">
+                                    <img src="admin/product_images/4.jpg" class="img-responsive w-100 border-bottom">
+                                </a>
+                                <!-- Product Image Ends -->
+                                
+                                <!-- Product Details Starts -->
+                                <div class="text">
+                                    <h3><a href="details.php">Phone Lenses</a></h3>
+                                    <p class="price">$5</p>
+                                    <p class="buttons">
+                                        <div class="row justify-content-center"> 
+
+                                            <a href="details.php" class="btn btn-info btn-sm mr-1">View Details</a>    
+
+                                            <a href="cart.php" class="btn btn-dark btn-sm">
+                                                <i class="fa fa-shopping-cart"></i>Add to Cart
+                                            </a>     
+
+                                        </div> 
+                                    </p>
+                                </div>
+                                <!-- Product Details Ends -->
+                            </div>
+                            <!-- Product content Ends -->
+                        </div>
+                        <!-- Product Container Ends -->
+                        
+                        <!-- Product Container Starts-->
+                        <div class="col-md-4 col-sm-9 center-responsive mb-3" id="p-container">
+                            <!-- Product contents Starts -->
+                            <div class="product">
+                                <!-- Product Image Starts -->
+                                <a href="details.php">
+                                    <img src="admin/product_images/8.jpg" class="img-responsive w-100 border-bottom">
+                                </a>
+                                <!-- Product Image Ends -->
+                                
+                                <!-- Product Details Starts -->
+                                <div class="text">
+                                    <h3><a href="details.php">Child Wrist Leash</a></h3>
+                                    <p class="price">$15</p>
+                                    <p class="buttons">
+                                        <div class="row justify-content-center"> 
+
+                                            <a href="details.php" class="btn btn-info btn-sm mr-1">View Details</a>    
+
+                                            <a href="cart.php" class="btn btn-dark  btn-sm">
+                                                <i class="fa fa-shopping-cart"></i>Add to Cart
+                                            </a>     
+
+                                        </div> 
+                                    </p>
+                                </div>
+                                <!-- Product Details Ends -->
+                            </div>
+                            <!-- Product content Ends -->
+                        </div>
+                        <!-- Product Container Ends -->
+                        
+                        <!-- Product Container Starts-->
+                        <div class="col-md-4 col-sm-9 center-responsive mb-3" id="p-container">
+                            <!-- Product contents Starts -->
+                            <div class="product">
+                                <!-- Product Image Starts -->
+                                <a href="details.php">
+                                    <img src="admin/product_images/9.jpg" class="img-responsive w-100 border-bottom">
+                                </a>
+                                <!-- Product Image Ends -->
+                                
+                                <!-- Product Details Starts -->
+                                <div class="text">
+                                    <h3><a href="details.php">Front Facing Baby Carrier</a></h3>
+                                    <p class="price">$16</p>
+                                    <p class="buttons">
+                                        <div class="row justify-content-center"> 
+
+                                            <a href="details.php" class="btn btn-info btn-sm mr-1">View Details</a>    
+
+                                            <a href="cart.php" class="btn btn-dark btn-sm">
+                                                <i class="fa fa-shopping-cart"></i>Add to Cart
+                                            </a>     
+
+                                        </div> 
+                                    </p>
+                                </div>
+                                <!-- Product Details Ends -->
+                            </div>
+                            <!-- Product content Ends -->
+                        </div>
+                        <!-- Product Container Ends -->
+                        
+                        <!-- Product Container Starts-->
+                        <div class="col-md-4 col-sm-6 center-responsive mb-3" id="p-container">
+                            <!-- Product contents Starts -->
+                            <div class="product">
+                                <!-- Product Image Starts -->
+                                <a href="details.php">
+                                    <img src="admin/product_images/10.jpg" class="img-responsive w-100 border-bottom">
+                                </a>
+                                <!-- Product Image Ends -->
+                                
+                                <!-- Product Details Starts -->
+                                <div class="text">
+                                    <h3><a href="details.php">Car Phone Holder</a></h3>
+                                    <p class="price">$6</p>
+                                    <p class="buttons">
+                                        <div class="row justify-content-center"> 
+
+                                            <a href="details.php" class="btn btn-info btn-sm mr-1">View Details</a>    
+
+                                            <a href="cart.php" class="btn btn-dark btn-sm">
+                                                <i class="fa fa-shopping-cart"></i>Add to Cart
+                                            </a>     
+
+                                        </div> 
+                                    </p>
+                                </div>
+                                <!-- Product Details Ends -->
+                            </div>
+                            <!-- Product content Ends -->
+                        </div>
+                        <!-- Product Container Ends -->
+
+                    </div>
+                    <!-- Products Row Section Ends -->
+                    <center>
+                        <!-- Pagination for Product Section -->
+                        <ul class="pagination">
+                            <li><a href="shop.php">First</a></li>
+                            <li><a href="shop.php">1</a></li>
+                            <li><a href="shop.php">2</a></li>
+                            <li><a href="shop.php">3</a></li>
+                            <li><a href="shop.php">4</a></li>
+                            <li><a href="shop.php">5</a></li>
+                            <li><a href="shop.php">Last</a></li>
+                        </ul>
+                        <!-- Pagination for Product Section Ends -->
+                    </center>
+               </div>
+
             </div>
         </div>
     </div>
@@ -181,12 +397,13 @@
     <!-- Footer ENds -->
 
     <!-- Optional JavaScript -->
+
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
    
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-
+    
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
     <script src="admin/js/carousel.js"></script>
